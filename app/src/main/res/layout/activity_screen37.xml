@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".Screen37Activity">
+
+    <include layout="@layout/toolbar"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#338d8d8d"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"/>
+
+</LinearLayout>
